@@ -17,13 +17,13 @@ function newfunction () {
     {
       if (!(day === 'Saturday' || day === 'saturday' || day == 'Sunday' || day === 'sunday') && age >= 18)
       {
-        document.getElementById('paragraph').innerHTML = 'Time to work'
+        document.getElementById('paragraph').innerHTML = 'Time to go to work'
       }
       else if (!(day === 'Saturday' || day === 'saturday' || day == 'Sunday' || day === 'sunday') && age < 18)
         {
           document.getElementById('paragraph').innerHTML = 'Time for school'  
         } else {
-          document.getElementById('paragraph').innerHTML = 'No school/work'
+          document.getElementById('paragraph').innerHTML = 'Time to relax for the weekend'
         }
     }
 }
