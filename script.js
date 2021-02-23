@@ -10,7 +10,7 @@ function newfunction () {
   } else if (age < 0) { 
     document.getElementById('paragraph').innerHTML = 'Enter a proper age'
   } else {
-    if (!(day === 'Saturday' || day === 'saturday' || day === 'Sunday' || day === 'sunday')) && age >= 18 
+    if (!(day === 'Saturday' || day === 'saturday' || day === 'Sunday' || day === 'sunday') && age >= 18) 
     { document.getElementById('paragraph').innerHTML = 'Time to go to work'
     } else if (!(day === 'Saturday' || day === 'saturday' || day === 'Sunday' || day === 'sunday') && age < 18)
     { document.getElementById('paragraph').innerHTML = 'Time for school'
